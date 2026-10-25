@@ -34,3 +34,11 @@ h1 {
 p {
   line-height: 1.6;
 }
+
+nav a {
+  color: #ffffff;
+}
+
+footer, footer p, footer a {
+  color: #ffffff;
+}
