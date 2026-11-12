@@ -45,6 +45,13 @@ p {
   line-height: 1.6;
 }
 
+.skip-link {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 6px 10px;
+}
+
 .grid {
   display: grid;
   grid-template-columns: 40% 40%;
