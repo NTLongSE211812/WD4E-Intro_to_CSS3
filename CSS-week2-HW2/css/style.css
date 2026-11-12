@@ -9,6 +9,16 @@ header {
 
 nav {
   background-color: #283593;
+  display: inline-block;
+  width: 80%;
+}
+
+nav a {
+  color: #ffffff;
+}
+
+nav img {
+  width: 10%;
 }
 
 main {
@@ -18,11 +28,11 @@ main {
 
 footer {
   background-color: #1a237e;
+  color: #ffffff;
 }
 
-li {
-  display: inline-block;
-  width: 150px;
+footer p, footer a {
+  color: #ffffff;
 }
 
 h1 {
@@ -35,10 +45,33 @@ p {
   line-height: 1.6;
 }
 
-nav a {
-  color: #ffffff;
+.skip-link {
+  position: absolute;
+  left: -9999px;
 }
 
-footer, footer p, footer a {
-  color: #ffffff;
+.skip-link:focus {
+  left: 10px;
+  top: 10px;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 4px 8px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.grid img {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
