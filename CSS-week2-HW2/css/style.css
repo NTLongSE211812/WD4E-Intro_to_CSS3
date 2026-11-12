@@ -45,19 +45,6 @@ p {
   line-height: 1.6;
 }
 
-.skip-link {
-  position: absolute;
-  left: -9999px;
-}
-
-.skip-link:focus {
-  left: 10px;
-  top: 10px;
-  background-color: #ffffff;
-  color: #000000;
-  padding: 4px 8px;
-}
-
 .grid {
   display: grid;
   grid-template-columns: 40% 40%;
