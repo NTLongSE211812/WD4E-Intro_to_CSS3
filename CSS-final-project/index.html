@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Final Project - Interactive LoL Esports Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="addTabindex();">
+  <header>
+    <h1>LoL Esports Gallery</h1>
+  </header>
+
+  <main>
+    <div id="image" aria-live="polite">Hover over an image below to display here.</div>
+
+    <h2>Các đội tuyển</h2>
+    <div class="gallery">
+      <figure tabindex="0" onfocus="upDate(this.querySelector('img'));" onblur="unDo();">
+        <img src="images/liquid.jpg" alt="Đội tuyển Team Liquid ngồi trên ghế sofa đen trước phông nền xanh" onmouseover="upDate(this);" onmouseout="unDo();">
+      </figure>
+      <figure tabindex="0" onfocus="upDate(this.querySelector('img'));" onblur="unDo();">
+        <img src="images/t1.jpg" alt="Đội tuyển T1 mặc áo trắng đứng thành hàng trước phông nền tối" onmouseover="upDate(this);" onmouseout="unDo();">
+      </figure>
+      <figure tabindex="0" onfocus="upDate(this.querySelector('img'));" onblur="unDo();">
+        <img src="images/geng.jpg" alt="Đội tuyển Gen.G mặc áo khoác đen đứng trước nền màu cam" onmouseover="upDate(this);" onmouseout="unDo();">
+      </figure>
+      <figure tabindex="0" onfocus="upDate(this.querySelector('img'));" onblur="unDo();">
+        <img src="images/blg.jpg" alt="Đội tuyển BLG mặc áo trắng xanh chụp banner quảng bá" onmouseover="upDate(this);" onmouseout="unDo();">
+      </figure>
+      <figure tabindex="0" onfocus="upDate(this.querySelector('img'));" onblur="unDo();">
+        <img src="images/g2.jpg" alt="Đội tuyển G2 Esports khoanh tay trước nền đen và đỏ" onmouseover="upDate(this);" onmouseout="unDo();">
+      </figure>
+      <figure tabindex="0" onfocus="upDate(this.querySelector('img'));" onblur="unDo();">
+        <img src="images/team8.jpg" alt="Đội tuyển HLE (Hanwha Life Esports) đứng trước tòa tháp và tòa nhà về đêm" onmouseover="upDate(this);" onmouseout="unDo();">
+      </figure>
+    </div>
+  </main>
+
+  <footer>
+    <p>Trang web làm bởi Nguyễn Thành Long, Final Project.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
