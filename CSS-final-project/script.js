@@ -1,4 +1,4 @@
-// Hover chuột hoặc focus bàn phím: hiển thị ảnh lên khung lớn
+
 function upDate(previewPic) {
   console.log("upDate chạy");
   console.log("alt: " + previewPic.alt);
@@ -9,7 +9,7 @@ function upDate(previewPic) {
   preview.style.backgroundImage = "url('" + previewPic.src + "')";
 }
 
-// Rời chuột hoặc blur: trả khung về trạng thái ban đầu
+
 function unDo() {
   console.log("unDo chạy");
 
@@ -18,7 +18,7 @@ function unDo() {
   preview.textContent = "Hover over an image below to display here.";
 }
 
-// Chạy khi trang tải xong: thêm tabindex cho mọi figure để Tab vào được
+
 function addTabindex() {
   console.log("addTabindex chạy");
 
